@@ -1,0 +1,42 @@
+.pink {
+    background-color: magenta;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+
+.text {
+    margin-left: 10%;
+    margin-top: 7%;
+    margin-right: 10%;
+    text-align: center;
+    color: white;
+    border-radius: 50%;
+    font-size: 70px;
+}
+
+#home {
+    border-radius: 15px 50px; 
+    background-color: aqua;
+    color: darkgrey;
+    height: 80px;
+}
+
+#about {
+    border-radius: 15px; 
+    background-color: blueviolet;
+    color: darkgrey;
+    height: 80px;
+}
+
+#contact {
+    border-radius: 50px 15px; 
+    background-color: deeppink;
+    color: darkgrey;
+    height: 80px;
+}
